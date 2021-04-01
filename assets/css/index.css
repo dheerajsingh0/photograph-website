@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: white;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container p span.typed-text {
+  font-weight: normal;
+  color: white;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+#footer{
+  width: 100%;
+  
+    height: 16em;
+    background: black;
+    color: white;
+}
+
+#Contact{
+ 
+text-align: center;
+    width: 100%;
+    height: 28em;
+    margin-top: 10em;
+    background: radial-gradient(circle, rgb(33 35 30) 11%, rgba(190,228,363,1) 43%);
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+@media only screen and (min-width: 601px) {
+    body {
+      background-color: lightblue;
+    }
+    .container p {
+      font-size: 2rem;
+      padding: 0.5rem;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      overflow: hidden;
+    }
+    .home-container{
+        background: url('../img/bg_bggenerator_com.jpg');
+        background-size: cover;
+        height: 95vh;
+        
+    }
+    .potraits {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 44em;
+  }
+  .potraits img {
+    background: white;
+    margin: 10px;
+      padding: 10px;
+      width:20em;
+    height: 20em;
+    background: cover;
+    margin-left: 8em;
+    }
+    
+.glasslook
+{
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 8.0px );
+  border-radius: 10px;
+  position:relative;
+  top: -13em;
+  left: 6em;
+  width: 55%;
+  padding: 1%;
+  height: 10em;
+  color: white;
+  
+}
+
+.temptatto{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+.temptatto img {
+  vertical-align: middle;
+    width: 32em;
+    height: 30em;
+    margin: auto;
+    padding: 9px;
+}
+.Wallimgtg{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+}
+.Wallimgtg img{
+  vertical-align: middle;
+  width: 49em;
+  height: 45em;
+  margin: auto;
+  padding: 4px;
+}
+
+} 
+  
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .home-container{
+      background: url('../img/bg_bggenerator_com.jpg');
+        background-size: cover;
+        height: 95vh;
+        
+    }
+    
+    .container p {
+      font-size: 1rem;
+      padding: 0.5rem;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      overflow: hidden;
+    }
+.glasslook
+  {     
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.0px );
+-webkit-backdrop-filter: blur( 8.0px );
+border-radius: 10px;
+position:absolute;
+top:30em;
+
+width: 55%;
+
+padding: 1%;
+height: 14em;
+color: white;
+
+}
+.potraits {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  
+}
+.potraits img {
+  padding: 10px;
+  width: 50%;
+  height: 15em;
+  background: white;
+}
+.temptatto{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+.temptatto img {
+  vertical-align: middle;
+  width: 12em;
+  height: 15em;
+  margin: 4px;
+  padding: 3px;
+}
+.Wallimgtg{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+}
+.Wallimgtg img{
+  vertical-align: middle;
+    width: 25em;
+    height: 30em;
+    margin: auto;
+    padding: 4px;
+}
+
+}
